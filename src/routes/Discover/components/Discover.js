@@ -65,9 +65,9 @@ export default class Discover extends Component {
       });
 
     this.state = {
-      newReleases: releaseNew | [],
-      playlists: playlistNew | [],
-      categories: categoryNew | [],
+      newReleases: [],
+      playlists: [],
+      categories: [],
     };
   }
 
